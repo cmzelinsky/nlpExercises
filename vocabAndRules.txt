@@ -1,0 +1,13 @@
+S: NP VP NP
+
+NP: art n
+
+VP: v
+
+
+
+v: eats licks cooks rescues entertains pokes fights scares loves hates
+
+n: cat dog rabbit moose squirrel kangaroo koala giraffe goat hamster piggy 
+
+art: the a
