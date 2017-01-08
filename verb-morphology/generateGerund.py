@@ -39,10 +39,9 @@ if __name__ == "__main__":
     #
     # The transitions
     # ---------------------------------------
+    # My advice is to draw out the automaton first -- this helped me a lot
 
-    # transduce every element in this set to itself:
     f.addSetTransition("q0", AZ, "q1")
-
     f.addSetTransition("q1", CONS, "q6")
     f.addSetTransition("q6", CONS, "q6")
     f.addSetTransition("q1", VOWS-I, "q2")
